@@ -183,7 +183,7 @@
   .balkjavascript {
     width: 23.2rem;
     height: 6.3rem;
-    margin-left: -5.1rem;
+    margin-left: -10rem;
     position: relative;
     background-color: #74D95B;
     border-radius: 38rem;
@@ -194,7 +194,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     padding-top: 1.5rem;
-    padding-left: 5.7rem;
+    padding-left: 15.7rem;
   }
 
   .htmlcss, .javascript{
