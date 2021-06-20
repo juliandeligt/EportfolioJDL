@@ -447,6 +447,10 @@
     color: #46CD24;
   }
 
+  .projectinfo a:hover {
+    color: #28AF2D;
+  }
+
   .projectinfo h1 {
     margin-bottom: -5rem;
     font-size: 3.5rem;
