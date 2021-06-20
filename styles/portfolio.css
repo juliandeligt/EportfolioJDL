@@ -449,6 +449,7 @@
 
   .projectinfo a:hover {
     color: #28AF2D;
+    transition: all 0.3s ease;
   }
 
   .projectinfo h1 {
