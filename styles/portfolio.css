@@ -1,3 +1,5 @@
+/*hompagina*/
+/*hero-sectie homepagina*/
 .hero {
     width: 100%;
     background: url("../images/homebanner.jpeg");
@@ -31,6 +33,7 @@
     font-weight: 400;
 }
 
+/*tekst in het groene vlak in de hero-sectie*/
   .herotekst {
       background-color: #46CD24;
       height: 40rem;
@@ -42,11 +45,13 @@
       padding-left: 75rem;
   }
   
+  /*over mij gedeelte*/
   .overmij {
       height: 109rem;
       background-color: #FFF7F7;
   }
 
+  /*foto van mezelf*/
   .julian img {
       margin-left: 26rem;
       margin-top: 17rem;
@@ -55,6 +60,7 @@
       position: relative;
   }
 
+  /*schuine rechthoek achter mijn foto*/
   .fotoachtergrond {
     width: 38.3rem;
     height: 50rem;
@@ -67,6 +73,7 @@
     content: "";
   }
 
+  /*tekst bij over mij gedeelte*/
   .overmij h3 , .vaardigheden h3, .projecten h3, .contact h3 {
     margin-top: 15rem;
     margin-left: 41rem;
@@ -89,6 +96,7 @@
     font-weight: 500;
   }
 
+  /*vaardigheden gedeelte*/
   .vaardighedencontent {
       background-color: #E0F7DB;
       height: 71rem;
@@ -100,21 +108,6 @@
     border: 0.4rem solid #2E8D31;
     border-radius: 100%;
     margin-left: 34rem;
-  }
-
-  .projectlink {
-    margin-top: -9rem;
-  }
-  .projectlink a{
-    position: relative;
-    left: -90rem;
-    top: 12rem;
-    color: black;
-  }
-
-  .projectlink a:hover {
-    color: #30A534;
-    transition: all 0.3s ease;
   }
 
   .vaardigheden p {
@@ -142,6 +135,7 @@
     margin-left: -9rem;
   }
 
+  /*percentagebalken*/
   .balk {
     width: 58rem;
     height: 6.3rem;
@@ -207,6 +201,7 @@
     margin-top: 5rem;
   }
 
+  /*quote*/
   .quote {
     background-color: #46CD24;
     font-family:'Poppins', sans-serif;
@@ -220,6 +215,7 @@
     padding-top: 1.2rem;
   }
 
+  /*Projectgedeelte*/
   .projecten h3 {
     margin-bottom: 10rem;
   }
@@ -241,6 +237,32 @@
     margin-top: 26rem;
   }
 
+  .projecten p {
+    transform: rotate(-7deg);
+    margin-left: 105rem;
+    margin-top: -4.5rem;
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /*link naar projectpagina (tijdelijk!)*/
+  .projectlink {
+    margin-top: -9rem;
+  }
+  .projectlink a{
+    position: relative;
+    left: -90rem;
+    top: 12rem;
+    color: black;
+  }
+
+  .projectlink a:hover {
+    color: #30A534;
+    transition: all 0.3s ease;
+  }
+
+  /*schuin vlak achter project*/
   .achtergrondproject {
     content: "";
     width: 96rem;
@@ -252,6 +274,7 @@
     left: 27%;
   }
 
+  /*slideshow projecten*/
   .carousel-container {
     width: 96rem;
     margin: auto;
@@ -280,15 +303,7 @@
     cursor: pointer;
   }
 
-  .projecten p {
-    transform: rotate(-7deg);
-    margin-left: 105rem;
-    margin-top: -4.5rem;
-    font-size: 3.5rem;
-    font-weight: 800;
-    font-family: 'Poppins', sans-serif;
-  }
-
+  /*contactgedeelte*/
   .contact {
     margin-top: 36rem;
     height: 130rem;
@@ -302,6 +317,7 @@
     margin-left: 40rem;
   }
 
+  /*formulier contact*/
   .contactformulier {
     margin-top: 10rem;
     margin-left: 40rem;
@@ -369,6 +385,8 @@
     left: 55rem;
   }
 
+  /*projectpagina*/
+  /*hero-sectie projectpagina*/
   .heroproject {
     width: 100%;
     background: url("../images/heroproject.jpeg");
@@ -381,6 +399,7 @@
     font-family: 'Montserrat', sans-serif;
   }
 
+  /*button naar volgend project*/
   .volgendproject button {
     width: 38rem;
     height: 7.7rem;
@@ -399,6 +418,7 @@
     transform: rotate(-90deg);
   }
 
+  /*tekst in groen vlak in hero-sectie projectpagina*/
   .heroprojecttekst {
     font-family: 'Montserrat', sans-serif;
     font-size: 5rem;
@@ -413,6 +433,7 @@
     font-weight: bold;
   }
 
+  /*informatie over de projecten*/
   .projectinfo {
     margin-top: 14rem;
     margin-left: 37rem;
@@ -428,6 +449,7 @@
     font-weight: bold;
   }
 
+  /*slideshow van de foto's*/
   .slider {
     height: 100%;
     width: 98rem;
@@ -458,6 +480,7 @@
     height: 58rem;
   }
 
+  /*navigatie door de foto's (stipjes onderaan)*/
   .navigation-manual {
     position: absolute;
     width: 98rem;
@@ -526,6 +549,7 @@
     padding-left: 12rem;
   }
 
+  /*link naar contactgedeelte onderaan de pagina*/
   .contactvraag {
     margin-top: 40rem;
     background-color: #DAF3D3;
@@ -543,6 +567,7 @@
     column-gap: 15rem;
   }
 
+  /*schuin vlak achter link van contact*/
   .achtergrondcontact {
     position: absolute;
     height: 19rem;
