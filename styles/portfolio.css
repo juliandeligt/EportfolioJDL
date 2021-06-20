@@ -443,6 +443,10 @@
     line-height: 3.9rem;
   }
 
+  .projectinfo a {
+    color: #46CD24;
+  }
+
   .projectinfo h1 {
     margin-bottom: -5rem;
     font-size: 3.5rem;
