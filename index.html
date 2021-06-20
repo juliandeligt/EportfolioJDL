@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julian de Ligt | Home</title>
+    <link rel="icon" href="icons/logo.svg" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header>
+    <!--navigatiebalk-->
+      <nav>
+        <div class="logo"><a href="#hero"><p>JDL</p></a></div>
+        <ul>
+          <li><a href="#overmij">Over mij</a></li>
+          <li><a href="#vaardigheden">Vaardigheden</a></li>
+          <li><a href="#projecten">Projecten</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Hero section-->
+    <hero class="hero" id="hero">
+      <div class="herotekst">
+      <h1>Julian</h1>
+      <h2>De Ligt</h2>
+    </div>
+    </hero>
+    
+
+    <section class="overmij" id="overmij">
+      <h3>Over mij</h3>
+      
+      <div class="julian">
+      <img src="images/julian.jpg" alt="foto van mij" width="383" height="500">
+    </div>
+    <div class="fotoachtergrond"></div>
+      <p>Hallo! Mijn naam is Julian en ik ben 21 jaar oud. Ik woon <br>
+        in Vlaardingen en ik studeer Communication & Multimedia<br>
+        Design aan de Haagse Hogeschool. Mijn grootste passie<br>
+        is voetbal en ik denk dat ik met de eigenschappen van<br>
+        een echte voetballer (teamplayer, uithoudingsvermogen,<br>
+        winnaarsmentaliteit) en mijn gezelligheid een versterking<br>
+        voor elk team kan zijn! Ik ben erg geïnteresseerd in web <br>
+        development en ik hoop hier later dan ook werk in te vinden.<br>
+        Mocht u meer vragen hebben, stel ze dan gerust via het <br>
+        contactformulier onderaan deze pagina!</p>
+    <div class="hover">
+      <img src="icons/pijl2.png" alt="pijl" width="58" height="65">
+      <p>hover over mijn foto voor mijn cv!</p>
+    </div>
+    </section>
+
+    <section class="vaardigheden" id="vaardigheden">
+      <h3>Vaardigheden</h3>
+      <div class="vaardighedencontent">
+        <div class="nederlands">
+        <img src="images/nederlandsevlag.png" alt="Nederlandse vlag" width="110" height="110">
+        <div class="nederlandstekst">
+        <h4>Nederlandse taal</h4>
+        <p>Nederlands is altijd 1 van mijn<br>
+        beste vakken geweest. Het gaat<br>
+        mij dus ook goed af!</p>
+      </div>
+      <div class="balk"></div>
+      <div class="balknederlands"><p>85%</p></div>
+      </div>
+
+        <div class="htmlcss">
+          <img src="images/htmlcss.png" alt="html + css logo" width="110" height="110">
+          <div class="htmlcsstekst">
+            <h4>HTML + CSS</h4>
+            <p>Al sinds de middelbare school<br>
+            doe ik dit en het gaat dan ook<br>
+            best goed bij mij!</p>
+          </div>
+          <div class="balk"></div>
+          <div class="balkhtmlcss"><p>80%</p></div>
+        </div>
+
+        <div class="javascript">
+          <img src="images/javascript.png" alt="javascript logo" width="110" height="110">
+          <div class="javatekst">
+            <h4>Javascript</h4>
+            <p>Javascript is een codetaal waar<br>
+            ik sinds kort mee bezig ben. Ik ben<br>
+            nog lang niet ervaren, maar ik ben<br>
+            ermee bezig!</p>
+          </div>
+          <div class="balk"></div>
+          <div class="balkjavascript"><p>40%</p></div>
+        </div>
+
+      </div>
+    </section>
+    <section class="quote">
+      <p>"Every champion was once a contender that refused to give up"</p>
+    </section>
+    <section class="projecten" id="projecten">
+      <h3>Projecten</h3>
+      <div class="projectlink">
+        <a href="projectpaginas/brouwerij.html"><p>Klik hier voor de projectpagina!</p></a>
+      </div>
+      <div class="projectengedeelte">
+      <div class="projectoverzicht">
+        <div class="achtergrondproject"></div>
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="images/projectbrouwerijkwartje.png" id="lastClone" alt="Rotterdam">
+            <img src="images/projectbrouwerijkwartje.png" alt="Brouwerij Kwartje">
+            <img src="images/projectbrouwerijkwartje.png" id="firstClone" alt="Brouwerij Kwartje">
+          </div>
+        </div>
+      </div>
+    </div>
+        <a class="prevBtn" id="prevBtn"><img src="icons/pijllinks.png"></a>
+        <a class="nextBtn" id="nextBtn"><img src="icons/pijlrechts.png"></a>
+      </div>
+    </div>
+    <p>Klik op CTRL + U om te zien hoe ik codeer!</p>
+    </section>
+    <section class="contact" id="contact">
+      <h3>Contact</h3>
+      <p>Bent u deel van een gezellig, niet al te groot bedrijf in regio Rotterdam en<br>
+        zoekt u een gezellige, maar hardwerkende stagiair? Of heeft u nog andere<br>
+        vragen? Laat het dan vooral weten via onderstaand formulier!</p>
+
+          <div class="contactformulier">
+
+          <form method="post" action="mailto:juliandeligt@hotmail.nl">
+  
+            <div class="formrow1">
+          <input id="naam" type="text" name="voornaam" placeholder="Wat is uw naam?" required>
+          <input id="email" type="text" name="email" placeholder="Wat is uw e-mailadres?" required>
+            </div>
+
+            <div class="formrow2">
+          <input id="onderwerp" type="text" name="onderwerp" placeholder="Onderwerp van uw bericht" required>  
+            </div>
+
+          <div class="formrow3">
+              <input id="bericht" type="text" name="bericht" placeholder="Schrijf hier uw bericht!" required>  
+          </div>
+
+          <!--verzenden-->
+              <button type="submit">Verstuur</button>
+          </div>
+              </form>
+            </div>
+      </section>
+
+    <!--footer-->
+    <footer class="footer">
+
+        <p> © Julian de Ligt 2021 </p>
+
+        <div class="socialmedia">
+
+            <a href="https://www.linkedin.com/in/julian-de-ligt-1586b9201/">
+              <img src="icons/linkedin.png" alt="linkedin logo" width="25" height="25"> </a>
+
+          
+              <div class="facebook">
+          <a href="https://www.facebook.com/julian.deligt">
+            <img src="icons/facebook.png" alt="facebook logo" width="25" height="25"> </a>
+          </div>
+        </div>
+
+    </footer>
+    <script src="javascript/app.js"></script>
+    </body>
+    </html>
